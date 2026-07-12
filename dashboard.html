@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dashboard</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <!-- Sidebar -->
+
+      <div id="sidebar"></div>
+
+      <!-- Main Content -->
+
+      <main class="main-content">
+        <div class="page-header">
+          <h1>Research Dashboard</h1>
+        </div>
+
+        <!-- Dashboard Overview -->
+
+        <div class="card">
+          <h2>Dashboard Overview</h2>
+
+          <div class="info-grid">
+            <div class="info-box">
+              <h4>Total Responses</h4>
+
+              <p>50</p>
+            </div>
+
+            <div class="info-box">
+              <h4>Charts</h4>
+              <p>7</p>
+            </div>
+            
+            <div class="info-box">
+              <h4>Pivot Tables</h4>
+              <p>7</p>
+            </div>
+
+            <div class="info-box">
+              <h4>Dashboard Tool</h4>
+
+              <p>Microsoft Excel</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Dashboard Screens -->
+
+        <div class="card">
+          <h2>Main Dashboard</h2>
+
+          <div class="placeholder">
+            <iframe
+                class="pdf-frame"
+                src="./data/dashboard.pdf"
+                title="Final Report PDF"
+                loading="lazy"
+              ></iframe>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script src="js/sidebar.js"></script>
+  </body>
+</html>
